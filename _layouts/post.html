@@ -16,10 +16,6 @@ layout: main
       </header>
       {{page.content | markdownify}}
       <div class="page-footer">
-        <div class="page-share">
-          <a href="http://v.t.sina.com.cn/share/share.php?url={{ site.url }}{{ page.url }}" title="Share on Weibo" rel="nofollow" target="_blank">Webo</a>
-          <a href="http://tieba.baidu.com/f/commit/share/openShareApi?url={{ site.url }}{{ page.url }}" title="Share on Baidutieba" rel="nofollow" target="_blank">Baidutieba</a>
-          <a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}{{ page.url }}" title="Share on QQ" rel="nofollow" target="_blank">QQ</a>
         </div>
         <div class="page-tag">
           {% for tag in page.tags %}
