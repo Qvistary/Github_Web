@@ -1,17 +1,16 @@
 title: Qvistary's Blog
-description: > 
+description: >
 permalink: ':title/'
-baseurl: 
+baseurl:
 url: "https//qvistary.github.io"
 
 
-author: Qvistary 
-author-img: qvistary.jpg 
-about-author: Let life be beautiful like summer flowers and death like autumn leaves. 
+author: Qvistary
+author-img: qvistary.jpg
+about-author: Let life be beautiful like summer flowers and death like autumn leaves.
 
 
-# Tracker
-analytics: # Google Analytics
+
 
 # Build Settings
 markdown: kramdown
